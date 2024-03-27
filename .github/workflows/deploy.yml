@@ -27,6 +27,7 @@ jobs:
         with:
           # 部署到 gh-pages 分支
           branch: gh-pages
+          deploy_key: ${{ secrets.CICDDEMO }} # 部署密钥，在项目的 Settings/Secrets 中配置
           publish_dir: ./dist # 部署打包后的 dist 目录
           github_token: ${{ secrets.DEPLOY_SECRET }} # secret 名
           user_name: ${{ secrets.MY_USER_NAME }}
