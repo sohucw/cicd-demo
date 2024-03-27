@@ -1,0 +1,24 @@
+{
+  "name": "screen-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "echarts": "^5.5.0",
+    "element-resize-detector": "^1.2.4",
+    "lodash": "^4.17.21",
+    "vant": "^4.8.7",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "vite": "^5.2.0"
+  }
+}
